@@ -20,7 +20,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=astro-root&show_icons=true&theme=transparent&hide_border=true
+          options: username=astro-root&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
