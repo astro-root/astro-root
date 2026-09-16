@@ -92,22 +92,16 @@ Vercel · Cloudflare Pages · GitHub Pages · Linux
 
 ## 📊 GitHub Activity
 
-### GitHub Stats
-
 <p align="center">
-  <img src="./profile/stats.svg" alt="GitHub Stats" />
+  <img src="./profile/stats.svg" alt="GitHub Stats">
 </p>
 
-### Top Languages
-
 <p align="center">
-  <img src="./profile/top-langs.svg" alt="Top Languages" />
+  <img src="./profile/top-langs.svg" alt="Top Languages">
 </p>
 
-### Contribution Graph
-
 <p align="center">
-  <img src="./profile/snake.svg" alt="GitHub Contribution Graph" />
+  <img src="./profile/snake.svg" alt="GitHub Contribution Graph">
 </p>
 
 ---
