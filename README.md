@@ -1,4 +1,4 @@
-# Root · astro-root
+# Root
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a5f&height=180&section=header&text=Root&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
