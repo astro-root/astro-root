@@ -1,0 +1,55 @@
+name: Update Profile
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Generate GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          username: astro-root
+          output: profile/stats.svg
+          type: stats
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          username: astro-root
+          output: profile/top-langs.svg
+          type: top-langs
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: astro-root
+          outputs: |
+            profile/snake.svg
+            profile/snake-dark.svg?palette=github-dark
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: update GitHub profile"
+            git push
+          fi
