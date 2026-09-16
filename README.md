@@ -1,4 +1,4 @@
-# Root · astro-root
+# Root
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a5f&height=180&section=header&text=Root&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
@@ -22,10 +22,11 @@
 
 Web開発とクイズを中心に活動しています。
 
-「思いついたものを、実際に使えるサービスとして形にする」ことが好きで、
+思いついたものを、実際に使えるサービスとして形にすることが好きです。
+
 クイズ・学習・業務支援などのWebサービスを個人で開発しています。
 
-天文学・物理学にも興味があります。
+また、天文学・物理学にも興味があります。
 
 ---
 
@@ -57,7 +58,7 @@ Web開発とクイズを中心に活動しています。
 
 を行える環境を開発しています。
 
-現在は **UI / UX・データモデル・エディタ設計・共同作業** を中心に開発中です。
+現在は UI / UX・データモデル・エディタ設計・共同作業を中心に開発しています。
 
 ---
 
@@ -69,7 +70,7 @@ Web開発とクイズを中心に活動しています。
   <img src="https://skillicons.dev/icons?i=ts,js,html,css,dart" />
 </p>
 
-**TypeScript · JavaScript · HTML · CSS · Dart**
+TypeScript · JavaScript · HTML · CSS · Dart
 
 ### Backend / Runtime
 
@@ -77,7 +78,7 @@ Web開発とクイズを中心に活動しています。
   <img src="https://skillicons.dev/icons?i=nodejs,firebase,supabase" />
 </p>
 
-**Node.js · Firebase · Supabase**
+Node.js · Firebase · Supabase
 
 ### Infrastructure
 
@@ -85,7 +86,7 @@ Web開発とクイズを中心に活動しています。
   <img src="https://skillicons.dev/icons?i=vercel,cloudflare,github,linux" />
 </p>
 
-**Vercel · Cloudflare Pages · GitHub Pages · Linux**
+Vercel · Cloudflare Pages · GitHub Pages · Linux
 
 ---
 
@@ -94,27 +95,25 @@ Web開発とクイズを中心に活動しています。
 ### Contribution Graph
 
 <p align="center">
-  <a href="https://github.com/astro-root">
-    <img src="https://ghchart.rshah.org/astro-root" alt="GitHub Contribution Graph" />
-  </a>
+  <img src="./profile/github-contribution-grid-snake.svg" alt="GitHub Contribution Graph" />
 </p>
 
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=astro-root&show_icons=true&hide_border=true&theme=transparent&cache_seconds=86400" height="180" />
+  <img
+    src="https://YOUR-VERCEL-DOMAIN.vercel.app/api/stats"
+    alt="GitHub Stats"
+  />
 </p>
 
 ### Top Languages
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=astro-root&layout=compact&hide_border=true&theme=transparent&cache_seconds=86400" height="180" />
-</p>
-
-### Contribution Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=astro-root&theme=transparent&hide_border=true" alt="GitHub Contribution Streak" />
+  <img
+    src="https://YOUR-VERCEL-DOMAIN.vercel.app/api/top-langs"
+    alt="Top Languages"
+  />
 </p>
 
 ---
@@ -144,17 +143,17 @@ Web開発とクイズを中心に活動しています。
 
 ## 🔗 Links
 
-* 𝕏 **個人:** [@astro_root](https://x.com/astro_root)
-* 🛠️ **開発:** [@astro_root_dev](https://x.com/astro_root_dev)
-* 🌐 **Root's Lab:** [astro-root.com](https://astro-root.com/)
-* 🐙 **GitHub:** [github.com/astro-root](https://github.com/astro-root)
+* 𝕏 [@astro_root](https://x.com/astro_root)
+* 🛠️ [@astro_root_dev](https://x.com/astro_root_dev)
+* 🌐 [Root's Lab](https://astro-root.com/)
+* 🐙 [GitHub](https://github.com/astro-root)
 
 ---
 
 ## 📮 Contact
 
-* **Web:** [astro-root.com/contact](https://astro-root.com/contact)
-* **Email:** [contact@astro-root.com](mailto:contact@astro-root.com)
+* [astro-root.com/contact](https://astro-root.com/contact)
+* [contact@astro-root.com](mailto:contact@astro-root.com)
 
 ---
 
