@@ -1,4 +1,4 @@
-name: Update Profile
+name: Update Profile Cards
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  stats:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,19 +17,19 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Generate GitHub Stats
-        uses: stats-organization/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          username: astro-root
-          output: profile/stats.svg
-          type: stats
+          card: stats
+          options: username=astro-root&show_icons=true&theme=transparent&hide_border=true
+          path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Top Languages
-        uses: stats-organization/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          username: astro-root
-          output: profile/top-langs.svg
-          type: top-langs
+          card: top-langs
+          options: username=astro-root&layout=compact&langs_count=6&theme=transparent&hide_border=true
+          path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate Contribution Snake
@@ -40,7 +40,7 @@ jobs:
             profile/snake.svg
             profile/snake-dark.svg?palette=github-dark
 
-      - name: Commit changes
+      - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -48,8 +48,8 @@ jobs:
           git add profile/
 
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "No changes to commit"
           else
-            git commit -m "chore: update GitHub profile"
+            git commit -m "chore: update profile cards"
             git push
           fi
