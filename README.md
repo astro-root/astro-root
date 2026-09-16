@@ -1,4 +1,4 @@
-# Root
+# Root · astro-root
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a5f&height=180&section=header&text=Root&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
@@ -87,17 +87,11 @@ Web開発とクイズを中心に活動しています。
 
 **Vercel · Cloudflare Pages · GitHub Pages · Linux**
 
-### Tools
-
-**npm · Git · GitHub**
-
 ---
 
 ## 📊 GitHub Activity
 
 ### Contribution Graph
-
-GitHub標準のContribution Graphで、日々の開発活動を確認できます。
 
 <p align="center">
   <a href="https://github.com/astro-root">
@@ -108,14 +102,19 @@ GitHub標準のContribution Graphで、日々の開発活動を確認できま�
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=astro-root&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=astro-root&layout=compact&theme=transparent&hide_border=true" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api?username=astro-root&show_icons=true&hide_border=true&theme=transparent&cache_seconds=86400" height="180" />
+</p>
+
+### Top Languages
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=astro-root&layout=compact&hide_border=true&theme=transparent&cache_seconds=86400" height="180" />
 </p>
 
 ### Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=astro-root&theme=transparent&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=astro-root&theme=transparent&hide_border=true" alt="GitHub Contribution Streak" />
 </p>
 
 ---
