@@ -1,20 +1,20 @@
 name: Update Profile Cards
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  profile:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
@@ -36,20 +36,12 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: astro-root
-          outputs: |
-            profile/snake.svg
-            profile/snake-dark.svg?palette=github-dark
+          outputs: profile/snake.svg
 
       - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add profile/
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update profile cards"
-            git push
-          fi
+          git diff --cached --quiet || git commit -m "chore: update profile cards"
+          git push
