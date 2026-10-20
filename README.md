@@ -62,6 +62,17 @@ Web開発とクイズを中心に活動しています。
 
 ---
 
+### Poker Colosseum
+
+**テキサスホールデムポーカーの傑作アプリ**
+
+テキサスホールデムポーカーをAIと対戦したり、友達と対戦したり、知らない人とオンラインで対戦したりできるサービスです。
+現在はUI/UXの改善を図っています。
+
+[Repository](https://github.com/astro-root/poker)
+
+---
+
 ## 🛠️ Tech Stack
 
 ### Languages
